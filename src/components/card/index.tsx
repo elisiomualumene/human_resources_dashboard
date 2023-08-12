@@ -11,7 +11,7 @@ export const Card = ({percentage,range,title}: ICardProps) => {
             <div>
                 <p className="text-xs text-zinc-300 mb-2">{title}</p>
                 <p className="text-lg font-bold">{range}</p>
-                <p className="text-xs text-orange-300 my-2">+{percentage}% Inc</p>
+                <p className="text-xs text-blue-300 my-2">+{percentage}% Inc</p>
             </div>
         </aside>
     )

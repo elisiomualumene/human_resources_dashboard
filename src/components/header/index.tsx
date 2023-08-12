@@ -2,7 +2,7 @@ import { SearchOutlined } from "@ant-design/icons"
 
 export const Header = () => {
     return(
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-row justify-between mt-4 ml-4">
 
         <div>
           <h4 className="font-bold text-zinc-600 mb-2">Dashboard</h4>
