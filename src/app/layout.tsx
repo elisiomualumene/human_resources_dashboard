@@ -4,6 +4,7 @@ import { Montserrat } from 'next/font/google'
 
 import { LeftSidebar } from '@/layout/LeftSidebar'
 import { RightSidebar } from '@/layout/rightSidebar'
+import { Header } from '@/components/header'
 
 const inter = Montserrat({ subsets: ['latin'] })
 
@@ -21,7 +22,10 @@ export default function RootLayout({
     <html lang="pt" className={inter.className}>
         <body className='flex flex-row h-screen'>
           <LeftSidebar />
-          <main className='pl-[250px] pr-[280px] w-full'>{children}</main>
+          <main className='pl-[250px] pr-[282px] w-full'>
+            <Header />
+            {children}
+          </main>
           <RightSidebar />
         </body>
     </html>
