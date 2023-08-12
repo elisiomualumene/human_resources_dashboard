@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="pt" className={inter.className}>
         <body className='flex flex-row h-screen'>
           <LeftSidebar />
-          <main className='pl-[250px] w-[calc(100%-500px)]'>{children}</main>
+          <main className='pl-[250px] pr-[280px] w-full'>{children}</main>
           <RightSidebar />
         </body>
     </html>
